@@ -1,3 +1,4 @@
+package Srpsolve_A;
 import javax.swing.*;
 
 public class Main {

@@ -1,3 +1,4 @@
+package Srpsolve_A;
 import javax.swing.*;
 import java.awt.*;
 
@@ -9,11 +10,18 @@ public class Shape extends JComponent {
     private int height = 100;
     private Rectangle rect;
 
-    public int getShapeWidth(){
-        return width;
+    public Shape(){}
+
+    public Shape(int x, int y, int w, int h, Rectangle r){
+        this.xUpperLeftCorner = x;
+        this.yUpperLeftCorner = y;
+        this.width = w;
+        this.height = h;
+        this.rect = r;
     }
-    public int getShapeHeight(){
-        return height;
+
+    public Rectangle getDimentions(){
+        return new Rectangle(xUpperLeftCorner, yUpperLeftCorner, width, height);
     }
 
     public void draw() {

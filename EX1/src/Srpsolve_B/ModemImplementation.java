@@ -1,3 +1,5 @@
+package Srpsolve_B;
+
 public class ModemImplementation implements Data_channel,Connection{
     @Override
     public void send(char c) {
@@ -16,6 +18,6 @@ public class ModemImplementation implements Data_channel,Connection{
 
     @Override
     public void hangup() {
-        
+
     }
 }

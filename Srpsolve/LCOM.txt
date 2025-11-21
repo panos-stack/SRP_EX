@@ -1,3 +1,0 @@
-Class Main: LCOM = 0 (MAX cohesion)
-Class Geometricshape: LCOM = 1-(4/6) = 0.3
-Class Shape: LCOM = 1-(8/20) = 0.6
